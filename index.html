@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+	<title>FOSther</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+
+</head>
+
+<body onload="fosther()">
+
+	<div id="weatherScreen">
+
+        <div class="center"><span id="locating" class="material-symbols-outlined icon rotate">sync</span></div>
+        <span id="denied" class="material-symbols-outlined">location_off</span>
+        
+        <img id="image">
+        <div id="temperature" class="noto-sans"></div>
+
+
+	</div>
+
+	<div id="footer" class="noto-sans">
+
+        Powered by <img id="google" src="https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w100-h32-fcrop64=1,00000000ffffffff-rw" alt="Google">
+
+	</div>
+
+	<script src="js/scripts.js"></script>
+
+</body>
+
+</html>

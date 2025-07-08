@@ -1,0 +1,64 @@
+body {
+	width: 100%;
+	height: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+    margin: auto;
+}
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#locating, #denied {
+    visibility: hidden;
+}
+
+#locating {
+    top: 20%;
+    left: 37.5%;
+    height: 350px;
+    font-size: 22em;
+    position: fixed;
+}
+
+#denied, #image {
+    top: 20%;
+    height: 350px;
+    font-size: 22em;
+    transform: translateX(-50%);
+    position: fixed;
+}
+
+#temperature {
+	top: 60%;
+	left: 50%;
+    font-size: 4em;
+    transform: translateX(-50%);
+	position: fixed;
+}
+
+#footer {
+	left: 50%;
+    bottom: 15px;
+	width: 500px;
+    font-size: 1.5em;
+	transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+	cursor: pointer
+}
+
+#google {
+    width: 100px;
+    height: 32px;
+    transform: translateX(+5%) translateY(25%);
+    position: relative;
+}
+
+@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+.rotate { animation: rotate 2s linear infinite; }
